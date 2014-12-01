@@ -56,11 +56,6 @@ public class World
     {
         relateTo( otherWorld, RelationshipTypes.REACHABLE_BY_ROCKET );
     }
-    
-    public void addRocketRouteTo( World otherWorld )
-    {
-        relateTo( otherWorld, RelationshipTypes.REACHABLE_BY_ROCKET );
-    }
 
     public boolean canBeReachedFrom( World otherWorld )
     {
